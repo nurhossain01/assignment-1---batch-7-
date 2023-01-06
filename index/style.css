@@ -1,0 +1,118 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* >>>>>>>>header-section>>>>>>>> */
+.header{
+ background-image: url(../images/banner/banner3.png);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.heading-line{
+  max-width: 1000px;
+  padding: 180px 0 166px 600px;
+}
+.heading-line h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  text-align: left;
+  color: #ffff;
+}
+.heading-line p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.heading-line button{
+  background-color: orange;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  margin-top: 32px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* >>>>>>>Home section>>>>>>>> */
+.home-section{
+  display: flex;
+  align-items: center;
+  padding: 130px 100px;
+  justify-content: space-between;
+}
+.describtion{
+  padding-left: 87px;
+}
+.describtion h2{
+  color: rgba(21, 20, 20, 1);
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.describtion p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 16px;
+  color: rgba(68, 67, 67, 1);
+}
+.describtion  ul{
+  padding-left: 30px; 
+}
+.describtion ul li{
+  color: rgba(68, 67, 67, 1);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  list-style: square;
+}
+/* >>>>>>>service-section>>>>>>>> */
+.plans h2{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  padding-bottom: 50px;
+}
+.service{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 0 150px;
+}
+.service-info img{
+  width: 50px;
+}
+.service-info {
+  text-align: center;
+}
+.service-info h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+}
+.service-info p{
+  color: rgba(115, 114, 114, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  padding-bottom: 130px;
+}
+/* >>>>>>>>>>>>cal now-section>>>>>>>>>>>> */
+.gredian{
+  background-repeat: no-repeat;
+  max-width: 800px;
+  padding: 100px 0;
+  background-image: url(../images/watch.png) ;
+}
