@@ -110,9 +110,39 @@ body{
   padding-bottom: 130px;
 }
 /* >>>>>>>>>>>>cal now-section>>>>>>>>>>>> */
-.gredian{
+.background{
   background-repeat: no-repeat;
-  max-width: 800px;
-  padding: 100px 0;
-  background-image: url(../images/watch.png) ;
+  max-width: 900px;
+  height: 300px;
+  background-image: url(../images/watch.png);
+  background-position: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+.gredian{
+  background-image: linear-gradient(to right,
+  rgb(219, 61, 61),
+  rgba(147, 180, 55, 0)
+  );
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.gredian h3{
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 47px;
+  padding-left: 64px;
+  padding-top: 60px;
+}
+.gredian button{
+  color: orange;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 15px;
+  margin-top: 24px;
+  margin-left: 64px;
 }
