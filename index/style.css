@@ -112,7 +112,7 @@ body{
 /* >>>>>>>>>>>>cal now-section>>>>>>>>>>>> */
 .background{
   background-repeat: no-repeat;
-  max-width: 900px;
+  max-width: 1000px;
   height: 300px;
   background-image: url(../images/watch.png);
   background-position: center;
@@ -145,4 +145,64 @@ body{
   padding: 10px 15px;
   margin-top: 24px;
   margin-left: 64px;
+}
+.footer{
+  background-color: black;
+}
+.future-experience{
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+}
+.futer-info h3{
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  padding-bottom: 16px;
+  padding-top: 100px;
+}
+.futer-info p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 26px;
+  padding-bottom: 24px;
+}
+.email-info{
+  color: #ffff;
+  line-height: 50px;
+}
+.phone-number{
+  color: #ffff;
+  line-height: 32px;
+}
+.icons{
+padding-top: 32px;
+padding-bottom: 130px;
+}
+.icons i{
+  padding-right: 17px;
+}
+.subscribe h4{
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 130px;
+  padding-bottom: 29px
+}
+.subscribe input{
+  padding: 10px 80px 10px 5px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 16px;
+
+}
+.subscribe button{
+  padding: 10px 15px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: cadetblue;
 }
